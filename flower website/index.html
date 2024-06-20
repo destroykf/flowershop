@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветы•Стихи</title>
+     <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Цветы•Стихи<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#products">Каталог</a>
+            <a href="#review">Отзывы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+     <!--Header section ends-->
+
+
+     <!--Home section starts-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Цветы•Стихи</h3>
+            <span>Искусство в каждом букете</span>
+            <p>Подарите поэзию в каждом цветке!</p>
+            <a href="#products" class="btn"> К покупкам</a>
+        </div>
+     </section>
+
+
+    <!--Home section ends-->
+
+
+  <!--About section starts-->
+<section class="about" id="about">
+    <h1 class="heading"><span>О</span> нас</h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="./images/about-vid.mp4 " loop autoplay muted></video>
+            <h3>Лучший магазин цветов</h3>
+        </div>
+        <div class="content">
+            <h3>Почему выбирают нас?</h3>
+            <p>Мы предлагаем уникальные букеты, которые являются настоящими произведениями искусства. В нашем магазине каждый цветок подобран с любовью и заботой, чтобы подарить вам и вашим близким незабываемые эмоции</p>
+            <p>Наша команда опытных флористов создает композиции, которые впечатляют своим изяществом и изысканностью. Мы гарантируем высокое качество цветов и индивидуальный подход к каждому клиенту</p>
+            <a href="#" class="btn">Подробнее</a>
+
+        </div>
+    </div>
+</section>
+
+  <!--About section ends-->
+
+<!--Products section stars-->
+
+<section class="products" id="products">
+    <h1 class="heading">Каталог</h1>
+    <div class="box-container" id="boxContainer">
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$17.99 <span>$15.99</span></div>
+            </div>
+            <form method="post" action="add_to_cart.php">
+                <input type="hidden" name="product_id" value="1"> <!-- Уникальный идентификатор товара -->
+                <input type="hidden" name="product_name" value="Flower pot">
+                <input type="hidden" name="product_price" value="15.99">
+            </form>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-4.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-5.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-6.png" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$18.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-7.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$18.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-8.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$15.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-9.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$17.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-10.png" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$11.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-11.png" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$11.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-12.png" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/img-13.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">В корзину</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flower pot</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-controls">
+        <button class="slider-btn" id="prev-btn">&#10094;</button>
+        <button class="slider-btn" id="next-btn">&#10095;</button>
+    </div>
+</section>
+
+
+
+<!--Products section ends-->
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">Отзывы <span>клиентов</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Потрясающий магазин! Букеты настолько красивые, что просто дух захватывает. Цветы свежие и выглядят великолепно. Обслуживание на высшем уровне, очень вежливый и внимательный персонал. Обязательно вернусь снова!</p>
+            <div class="user">
+                <img src="./images/pic-1.png" alt="">
+                <div class="user-info">
+                    <h3>Дмитрий</h3>
+                    <span>Счастливый клиент</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Заказывала здесь цветы на день рождения подруги. Она была в восторге! Букет был шикарный, свежий и ароматный. Сервис на высоте, все сделали быстро и качественно. Спасибо за свежие цветы и приятные эмоции!</p>
+            <div class="user">
+                <img src="./images/pic-2.png" alt="">
+                <div class="user-info">
+                    <h3>Анна</h3>
+                    <span>Первый заказ</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Я в восторге от сервиса и качества цветов в этом магазине. Все ожидания превзошли! Букет собран с большим вкусом и заботой. Доставка быстрая, курьер был очень вежливым. Рекомендую всем своим друзьям!</p>
+            <div class="user">
+                <img src="./images/pic-3.png" alt="">
+                <div class="user-info">
+                    <h3>Низат</h3>
+                    <span>Довольный покупатель</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Цветочный магазин просто супер! Каждый букет – это маленький шедевр. Я уже несколько раз заказывала здесь и всегда остаюсь довольной. Цветы долго стоят свежими, и сервис отличный. Обязательно продолжу здесь заказывать!</p>
+            <div class="user">
+                <img src="./images/pic-4.jpg" alt="">
+                <div class="user-info">
+                    <h3>Ольга</h3>
+                    <span>Постоянный клиент</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+</section>
+
+<!--review section ends-->
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Связаться</span> с нами</h1>
+    <div class="row">
+        <form action="send_message.php" method="POST">
+            <input type="text" class="box" name="name" placeholder="Фамилия и имя" required>
+            <input type="email" class="box" name="email" placeholder="Почта" required>
+            <input type="tel" class="box" name="phone" placeholder="Номер телефона" required>
+            <textarea name="message" class="box" placeholder="Сообщение" id="" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Отправить" class="btn">
+        </form>
+        <div class="image">
+            <img src="./images/contact-img.svg" alt="">
+        </div>
+    </div>
+</section>
+<!--contact section ends-->
+
+
+<div class="map-contact-container">
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201.41883150318773!2d39.70547232259726!3d47.21740460455933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b90c71ff2f33%3A0xf01c20eb2ac819a2!2z0KbQstC10YLRiyDigKIg0KHRgtC40YXQuA!5e0!3m2!1sru!2snl!4v1718805478396!5m2!1sru!2snl" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact-info">
+        <h3>Контактная информация</h3>
+        <a href="#">+79188561856</a>
+        <a href="#">fushionflower@gmail.com</a>
+        <a href="#">Темерницкая ул., 35, Ростов-на-Дону, Ростовская обл., Россия, 344002</a>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
